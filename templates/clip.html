@@ -1,0 +1,16 @@
+{% extends 'index.html' %} {% block content %}
+<form action="/" method="POST" enctype="multipart/form-data">
+  <p>Select the image</p>
+  <input type="file" id="images" name="images[]" multiple />
+  <p>Enter the Probability to search</p>
+  <input type="text" id="texts" name="texts[]" multiple />
+  <br />
+  <br />
+  <input type="submit" class="submit" />
+</form>
+
+{% if outputs|length > 0 %}
+<h4>END RESULTS:</h4>
+{% for output in outputs %}
+<div>{{output}}</div>
+{% endfor %} {% endif %} {% endblock %}
