@@ -9,7 +9,7 @@
 3. now install and set the environment variables
 4. install anaconda and add all required config for you pc 
 5. link: https://www.anaconda.com/download
-6. now create a conda env
+6. now create a conda env by following the below steps
 ```bash
 conda create --name myenv python=3.8.16
 conda activate myenv
