@@ -4,7 +4,7 @@
 
 ### complete info is in https://github.com/openai/CLIP
 ### Steps to install this framework
-1. install any version of python, i recomend going 1 version lower than the latest link: https://www.python.org/downloads/, now install and set the environment variables
+1. install any version of python, i recomend going 1 version lower than the latest version, link: https://www.python.org/downloads/, now install and set the environment variables
 2. install anaconda and add all required config for you pc link: https://www.anaconda.com/download
 3. now create a conda env
 ```bash
