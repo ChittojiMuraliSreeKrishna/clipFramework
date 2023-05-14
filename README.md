@@ -3,7 +3,7 @@
 ## this is python framework which predicts the images, this uses python 3.8
 
 ### complete info is in https://github.com/openai/CLIP
-### Steps to install clip with flask and other required frameworks
+#### Steps to install clip with flask and other required frameworks
 1. install any version of python, i recomend going 1 version lower than the latest version 
 2. link: https://www.python.org/downloads/ 
 3. now install and set the environment variables
