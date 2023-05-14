@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.results {
+  width: 75%;
+  border: 2px dashed #282828;
+}
+
+.results p {
+  text-align: center;
+}
+
+.comment {
+  color: gray;
+  font-weight: 500;
+}
+
+input {
+  display: block;
+  margin: 1em 0;
+}
+
+.sub_headings {
+  font-size: 1.5rem;
+}
+
+.submit {
+  background-color: #009900;
+  color: #fff;
+  width: 6em;
+  height: 2.5em;
+  border-radius: 0.3em;
+  border: 1px solid grey;
+}

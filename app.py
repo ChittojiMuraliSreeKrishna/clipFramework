@@ -39,11 +39,13 @@ def get_probs():
                 text_features = model.encode_text(text)
                 logits_per_image, logits_per_text = model(image, text)
                 probs = logits_per_image.softmax(dim=-1).cpu().numpy()
-                output = f"-------------------- {img} -------------------------:"
+                output = f"image-name: {img.filename} "
                 print(output)
                 outputs.append(output)
+                output = f"---------- probabilities ----------"
+                outputs.append(output)
                 for i, text in enumerate(values):
-                    output = f"{text}: {probs[0][i]}"
+                    output = f"{text} :- {probs[0][i]}"
                     print(output)
                     outputs.append(output)
                 outputs.append("")

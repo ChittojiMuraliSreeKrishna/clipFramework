@@ -1,16 +1,39 @@
 {% extends 'index.html' %} {% block content %}
 <form action="/" method="POST" enctype="multipart/form-data">
-  <p>Select the image</p>
-  <input type="file" id="images" name="images[]" multiple />
-  <p>Enter the Probability to search</p>
-  <input type="text" id="texts" name="texts[]" multiple />
+  <b class="sub_headings">Select the image</b>
   <br />
+  <text class="comment"> you can select multiple images </text>
+  <input
+    type="file"
+    accept="image/*,video/*"
+    id="images"
+    name="images[]"
+    multiple
+  />
+
+  <b class="sub_headings">Enter the Probability to search</b>
   <br />
-  <input type="submit" class="submit" />
+  <text class="comment">
+    you can add multiple Probabilities by seperating them with comma <br />
+    ex: {house, image, human, ...}
+  </text>
+  <input
+    type="text"
+    id="texts"
+    placeholder="enter the Probabilities"
+    name="texts[]"
+    multiple
+  />
+  <button type="submit" class="submit">Search</button>
 </form>
 
 {% if outputs|length > 0 %}
 <h4>END RESULTS:</h4>
-{% for output in outputs %}
-<div>{{output}}</div>
-{% endfor %} {% endif %} {% endblock %}
+<div class="results">
+  <div class="inner_results">
+    {% for output in outputs %}
+    <p>{{output}}</p>
+    {% endfor %}
+  </div>
+</div>
+{% endif %} {% endblock %}
