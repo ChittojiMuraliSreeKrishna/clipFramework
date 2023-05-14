@@ -25,3 +25,9 @@ cd path_to\clipFramework
 pip install -r requirements.txt
 ```
 this will install all required packages for using clip and flask frameworks
+
+#### to run the project
+```bash
+python app.py
+```
+this will run image search program using flask app
