@@ -15,9 +15,9 @@ pip install ftfy regex tqdm
 pip install git+https://github.com/openai/CLIP.git
 ```
 
-! now clone my repository & check for file named reqirements.txt
+! now clone my repository & check for a file named reqirements.txt
 ```bash
 cd path_to\clipFramework
 pip install -r requirements.txt
 ```
-this will install all required packages for using clip and flask frmaeworks
+this will install all required packages for using clip and flask frameworks
