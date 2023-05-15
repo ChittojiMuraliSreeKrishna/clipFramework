@@ -31,4 +31,5 @@ this will install all required packages for using clip and flask frameworks
 python app.py
 ```
 this will run image search program using flask app, local server will started and you can upload images and search the images
-![alt text](Screenshot (3).png)
+
+<img src="https://github.com/ChittojiMuraliSreeKrishna/clipFramework/assets/95464118/f837ef93-ed44-4cb3-a6d7-81c69adaab36" width="100%" height="500" />
