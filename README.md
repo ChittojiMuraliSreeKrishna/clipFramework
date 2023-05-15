@@ -31,3 +31,4 @@ this will install all required packages for using clip and flask frameworks
 python app.py
 ```
 this will run image search program using flask app, local server will started and you can upload images and search the images
+![alt text](Screenshot (3).png)
