@@ -5,10 +5,10 @@
 ### complete info is in https://github.com/openai/CLIP
 #### Steps to install clip with flask and other required frameworks
 1. install any version of python, i recomend going 1 version lower than the latest version 
-2. link: https://www.python.org/downloads/ 
+2. download-link: https://www.python.org/downloads/ 
 3. now install and set the environment variables
 4. install anaconda and add all required config for you pc 
-5. link: https://www.anaconda.com/download
+5. download-link: https://www.anaconda.com/download
 6. now open the command prompt or other terminal based on your os
 7. now create a conda env by following the below steps
 ```bash
