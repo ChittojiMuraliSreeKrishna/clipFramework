@@ -6,7 +6,7 @@
 #### Steps to install clip with flask and other required frameworks
 1. install any version of python, i recomend going 1 version lower than the latest version 
 2. download-link: https://www.python.org/downloads/ 
-3. after downloading install and set the environment variables
+3. after downloading, install and set the environment variables
 4. install anaconda and add all required config for you pc 
 5. download-link: https://www.anaconda.com/download
 6. now open the command prompt or other terminal based on your os
