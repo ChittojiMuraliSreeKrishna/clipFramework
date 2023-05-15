@@ -1,6 +1,6 @@
 # clipFramework
 
-## clip is python framework which predicts the images using the given text, this uses python 3.8
+## clip is python framework which predicts the images using the given text & also it can do much more than that, clip uses python 3.8
 
 ### complete info is in https://github.com/openai/CLIP
 #### Steps to install clip with flask and other required frameworks
