@@ -32,4 +32,4 @@ python app.py
 ```
 this will run image search program using flask app, local server will started and you can upload images and search the images
 
-<img src="https://github.com/ChittojiMuraliSreeKrishna/clipFramework/assets/95464118/f837ef93-ed44-4cb3-a6d7-81c69adaab36" width="100%" height="500" />
+<img src="https://github.com/ChittojiMuraliSreeKrishna/clipFramework/assets/95464118/9529555e-b9ff-4547-974d-c32ff476122b" width="100%" height="500" />
